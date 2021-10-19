@@ -22,25 +22,25 @@ public class MultiplicationTable {
     }
 
     public String generateTable(int start, int end) {
-        String table = "";
+        StringBuilder table = new StringBuilder();
         for (int i=start; i<=end; i++){
-            table += generateLine(start, i);
+            table.append(generateLine(start, i));
             if (i != end){
-                table += "\n";
+                table.append("\n");
             }
         }
-        return table;
+        return table.toString();
     }
 
     public String generateLine(int start, int row) {
-        String line = "";
+        StringBuilder line = new StringBuilder();
         for (int i=start; i<=row; i++){
-            line += generateSingleExpression(i, row);
+            line.append(generateSingleExpression(i, row));
             if (i != row){
-                line += "  ";
+                line.append("  ");
             }
         }
-        return line;
+        return line.toString();
     }
 
     public String generateSingleExpression(int multiplicand, int multiplier) {
