@@ -2,7 +2,11 @@ package com.tw;
 
 public class MultiplicationTable {
     public String create(int start, int end) {
-        return null;
+        if (!isValid(start, end)){
+            return null;
+        }else{
+            return generateTable(start, end);
+        }
     }
 
     public Boolean isValid(int start, int end) {
