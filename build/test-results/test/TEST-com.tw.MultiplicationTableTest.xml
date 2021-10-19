@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tw.MultiplicationTableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-19T07:57:33" hostname="YuendeMBP.wework.com" time="0.008">
+<testsuite name="com.tw.MultiplicationTableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-19T07:59:36" hostname="YuendeMBP.wework.com" time="0.009">
   <properties/>
-  <testcase name="should_return_true_when_validate_given_start_4_and_end_100()" classname="com.tw.MultiplicationTableTest" time="0.008"/>
+  <testcase name="should_return_multiplication_expression_when_multiply_given_multiplicand_2_and_multiplier_3()" classname="com.tw.MultiplicationTableTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
